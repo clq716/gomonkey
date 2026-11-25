@@ -23,10 +23,13 @@ gomonkey is a library to make monkey patching in unit tests easy, and the core i
 
 - ARCH
   - amd64
-  - arm64
   - 386
   - loong64
   - riscv64
+
+  Note: arm64 is not supported. All gomonkey packages are excluded by the
+  `!arm64` build constraint, so importing them on an arm64 target fails with
+  "build constraints exclude all Go files".
 
 - OS
   - Linux

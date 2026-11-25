@@ -1,3 +1,6 @@
+//go:build !arm64
+// +build !arm64
+
 // Customized reflect package for gomonkey，copy most code from go/src/reflect/type.go
 
 package creflect

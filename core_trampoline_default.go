@@ -1,6 +1,5 @@
-//go:build !amd64 && (!darwin || !arm64)
-// +build !amd64
-// +build !darwin !arm64
+//go:build !amd64 && !arm64
+// +build !amd64,!arm64
 
 package gomonkey
 

@@ -1,3 +1,6 @@
+//go:build !arm64
+// +build !arm64
+
 package dsl
 
 import . "github.com/agiledragon/gomonkey/v2"
